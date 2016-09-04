@@ -29,7 +29,8 @@ use pocketmine\command\{Command,CommandSender};
 use pocketmine\utils\TextFormat as Color;
 use pocketmine\Player;
 use pocketmine\level\Position;
-use pocketmine\event\player\{PlayerJoinEvent;
+use pocketmine\event\player\PlayerJoinEvent;
+use pocketmine\utils\Config;
 
 class Main extends PluginBase implements Listener{
  
@@ -40,7 +41,17 @@ class Main extends PluginBase implements Listener{
 	 
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
-		$this->getLogger()->info("OITQ Has been loaded");
+		$this->config = (new Config($this->getDataFolder()."config.yml", Config::YAML))->getAll();
+		if($this->config->get("AutoUpdater") == "False" or "false" or "off"){
+			$this->getLogger()->info("*** The AutoUpgrade Sevice is off ***");
+			$this->getLogger()->info("** Enable it so that it'll download new updates      **");
+		}
+		if($this->config->get("AutoUpdater") == "True" or "true" or "on"){
+			$this->getLogger()->info("*** The AutoUpgrade Sevice is on ***");
+			$this->getLogger()->info("** New updates will download as soon as it's released **");
+			$this->AutoUpdater = new EventListener($this);
+			$this->AutoUpdater;
+		}
 	}
 
 	/**
