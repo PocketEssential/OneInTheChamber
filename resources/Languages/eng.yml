@@ -7,8 +7,12 @@
 # |______\__,_|_| |_|\__, |\__,_|\__,_|\__, |\___||___/
 #                     __/ |             __/ |          
 #                    |___/             |___/           
-# TYPE: eng
 #
 
+Countdown_Message: "§bStarting in {time}"
+# available message types: popup, tip, chat
+Countdown_Message_Type: "popup"
+Kits_Message: "§7Available Kits: {kits}"
+Kit_Chosen_Message: "§6You have chosen the {kitname} kit"
 
-## todo!
+# WIP
