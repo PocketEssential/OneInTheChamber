@@ -45,11 +45,7 @@ We have a simple API, that allows developers to customized things more, and chec
 * Add tokens to the player
    - $this->oitq->addToken($player, $token); 
    - - Varible $token is the amount you are adding
-   
-* Getting if a player is in a arena
-   - $this->oitq->playerStatus($player); 
-   - - Returns "Yes" if they are in an arena and "No" if not
-
+ 
 We're working hard to useful API features! If you have any suggestions. Please "do" let us know!
 
 #Authors:
