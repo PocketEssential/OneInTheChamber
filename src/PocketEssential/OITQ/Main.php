@@ -49,7 +49,7 @@ class Main extends PluginBase implements Listener{
 		if($this->config->get("AutoUpdater") == "True" or "true" or "on"){
 			$this->getLogger()->info("*** The AutoUpgrade Sevice is on ***");
 			$this->getLogger()->info("** New updates will download as soon as it's released **");
-			$this->AutoUpdater = new EventListener($this);
+			$this->AutoUpdater = new AutoUpdater($this);
 			$this->AutoUpdater;
 		}
 	}
