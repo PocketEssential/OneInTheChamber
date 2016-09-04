@@ -32,8 +32,34 @@ use pocketmine\level\Position;
 use pocketmine\event\player\{PlayerJoinEvent;
 
 class Main extends PluginBase implements Listener{
-
+ 
+     /** Vars */
+	 public $settings = [];
+	 public $autoUpdater = true;
+	 $public $provider;
+	 
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->getLogger()->info("OITQ Has been loaded");
 	}
+
+	/**
+	 * Check a player tokens
+	 */
+	  public function checkTokens($player){
+		  
+	  }
+	  
+           /**
+	        * Set | add tokens to a player account
+	        */
+	  public function setToken($player, $token){
+		  
+	  }
+
+           /**
+	        * Check the player current status
+	        */
+	  public function playerStatus($player){
+	  }
+}
