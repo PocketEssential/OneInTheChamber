@@ -1,6 +1,0 @@
-name: OITC
-version: 1.0.0
-api: 1.14.0
-main: kairusdarkseeker\oitc\OITC
-authors: [KairusDarkSeeker, xZeroMCPE]
-description: OneInTheChamber Plugin for PocketMine (related servers).
