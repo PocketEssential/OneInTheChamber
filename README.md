@@ -26,3 +26,7 @@ Deathmatch plugin where you can instantly kill player with one shot. If you kill
 - oitc.event.join.<ArenaName> (Access to the arena permission only)
 - oitc.event.join.*  (Access to join all arenas)
 - oitc.admin (Allow access to all commmands)
+
+#Authors:
+- [KairusDarkSeeker](https://github.com/KairusDarkSeeker)
+- [xZeroMCPE] (https://github.com/xZeroMCPE)
