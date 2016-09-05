@@ -1,6 +1,6 @@
 # OneInTheChamber
 
-Deathmatch plugin where you can instantly kill player with one shot. If you kill player you will have one more arrow. Very intersting bow game!
+Deathmatch plugin where you can instantly kill player with one shot. If you kill player you will have one more arrow. Very intersting bow game! Now for PocketMine servers / forks :)   (OneInTheChamber or One In The Quiver)
 
 #Features:
 
