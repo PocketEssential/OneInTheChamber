@@ -8,11 +8,40 @@
 #                     __/ |             __/ |          
 #                    |___/             |___/           
 #
+#
+# Available varibles:
 
-Countdown_Message: "§bStarting in {time}"
-# available message types: popup, tip, chat
-Countdown_Message_Type: "popup"
-Kits_Message: "§7Available Kits: {kits}"
-Kit_Chosen_Message: "§6You have chosen the {kitname} kit"
+# {Time} - Displays the arena time
+# {Username} - Displays the player username
+# {Players} displays a number os players that are in a arena
+# {Kits} - Shows a list of kits
+# {X} - Shows the player X
+# {Y} - Shows the player Y
+# {Z} - Shows the player Z
 
-# WIP
+# Kits related
+Kits_Message: "Available Kits: {kits}"
+Kit_Chosen_Message: "You have chosen the {kitname} kit"
+Kit_No_Permission: You don't have enough permission to choose this kit
+Cannot_Choose_In_Game: You cannot choose a kit, while the match your currently on is playing!
+
+# Countdown | Timer messages | Game start | Game ends ect
+# Available Countdown_Message_Type are: Tip,Popup,Message
+Countdown_Message: "Starting in {Time}"
+Countdown_Message_Type: "Popup"
+Game_Starting: Game starting in {Time}
+Game_Start: The match has started! Goodluck
+Game_Ending: The match will end in {time}
+Game_End" The match has ended
+
+# Winning messages / Lost
+Player_Won_Message: Congratulation, you won this match!
+Broadcast_Won: {Username} has won a oitc match
+
+# Kills, Hits ect
+Shot: You shot {Username} 
+Target_Shot: You have been shoot
+Broadcast_Shot: {Username} was sniped and killed :o 
+Player_Remain: There are {Players} remaining
+
+
