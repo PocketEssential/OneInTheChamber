@@ -12,12 +12,13 @@
 # Available varibles:
 
 # {Time} - Displays the arena time
+# {Killer} - shows the killer of the player
 # {Username} - Displays the player username
 # {Players} displays a number os players that are in a arena
 # {Kits} - Shows a list of kits
-# {X} - Shows the player X
-# {Y} - Shows the player Y
-# {Z} - Shows the player Z
+# {X} - Shows the player's X coordinate
+# {Y} - Shows the player's Y coordinate
+# {Z} - Shows the player's Z coordinate
 
 # Kits related
 Kits_Message: "Available Kits: {kits}"
@@ -32,16 +33,16 @@ Countdown_Message_Type: "Popup"
 Game_Starting: Game starting in {Time}
 Game_Start: The match has started! Goodluck
 Game_Ending: The match will end in {time}
-Game_End" The match has ended
+Game_End: The match has ended
 
 # Winning messages / Lost
-Player_Won_Message: Congratulation, you won this match!
-Broadcast_Won: {Username} has won a oitc match
+Player_Won_Message: Congratulations, you won the match!
+Broadcast_Won: {Username} has won an OITC match
 
 # Kills, Hits ect
 Shot: You shot {Username} 
 Target_Shot: You have been shoot
-Broadcast_Shot: {Username} was sniped and killed :o 
+Broadcast_Shot: {Username} was sniped and eliminated by {Killer}
 Player_Remain: There are {Players} remaining
 
 
