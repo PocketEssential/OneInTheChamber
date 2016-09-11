@@ -16,12 +16,12 @@
 28
  
 # 29 Cuenta atrás | mensajes del temporizador | inicio del juego | El juego termina etc.
-# 30 Disponible Countdown_Message_Type son: Consejo, emergente, Mensaje
+# 30 Disponible Countdown_Message_Type son: Tip,Popup,Message
 31 Countdown_Message: "A partir de {Time}"
-32 Countdown_Message_Type: "emergente"
+32 Countdown_Message_Type: "Popup"
 33 Game_Starting: Juego partir de {Time}
 34 Game_Start: El partido ha comenzado! Buena suerte
-35 Game_Ending: El partido terminará en el {time}
+35 Game_Ending: El partido terminará en el {Time}
 36 game_end: El partido ha terminado
 37
  
