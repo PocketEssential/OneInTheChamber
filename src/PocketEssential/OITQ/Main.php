@@ -37,7 +37,7 @@ class Main extends PluginBase implements Listener{
      /** Vars */
 	 public $settings = [];
 	 public $autoUpdater = true;
-	 $public $provider;
+	 public $provider;
 	 
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
@@ -58,7 +58,8 @@ class Main extends PluginBase implements Listener{
 	 * Check a player tokens
 	 */
 	  public function checkTokens($player){
-		  
+		  		   $name = $player->getName();
+		  return $this->tokens->get(strtolower($name));
 	  }
 	  
            /**
@@ -66,11 +67,18 @@ class Main extends PluginBase implements Listener{
 	        */
 	  public function setToken($player, $token){
 		  
+		  		   $name = $player->getName();
+				   
+		  $current = $this->tokens->get(strtolower($name));
+		  $this->token->set(strtolower($name) , $current + $token);;
+		   return "$name tokens has been successfully changed";
 	  }
 
            /**
 	        * Check the player current status
 	        */
 	  public function playerStatus($player){
+		  
+		  
 	  }
 }
