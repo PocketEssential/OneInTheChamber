@@ -16,13 +16,14 @@
 # {Username} - Displays the player username
 # {Players} displays a number os players that are in a arena
 # {Kits} - Shows a list of kits
+# {KitName} - The kit the player choosed
 # {X} - Shows the player's X coordinate
 # {Y} - Shows the player's Y coordinate
 # {Z} - Shows the player's Z coordinate
 
 # Kits related
-Kits_Message: "Available Kits: {kits}"
-Kit_Chosen_Message: "You have chosen the {kitname} kit"
+Kits_Message: "Available Kits: {Kits}"
+Kit_Chosen_Message: "You have chosen the {KitName} kit"
 Kit_No_Permission: You don't have enough permission to choose this kit
 Cannot_Choose_In_Game: You cannot choose a kit, while the match your currently on is playing!
 
@@ -32,7 +33,7 @@ Countdown_Message: "Starting in {Time}"
 Countdown_Message_Type: "Popup"
 Game_Starting: Game starting in {Time}
 Game_Start: The match has started! Goodluck
-Game_Ending: The match will end in {time}
+Game_Ending: The match will end in {Time}
 Game_End: The match has ended
 
 # Winning messages / Lost
