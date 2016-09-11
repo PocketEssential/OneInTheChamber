@@ -1,7 +1,7 @@
-# {Tiempo} - Muestra el tiempo de la arena
+# {Time} - Muestra el tiempo de la arena
 # 15 {Killer} - muestra el asesino del jugador
-16 # {nombre de usuario} - Muestra el nombre de usuario del jugador
-# 17 {jugadores} muestra un número de jugadores de os que se encuentran en una arena
+16 # {Username} - Muestra el nombre de usuario del jugador
+# 17 {Players} muestra un número de jugadores de os que se encuentran en una arena
 # 18 {Kits} - Muestra una lista de los kits
 19 # {X} - Muestra la coordenada X del jugador
 # 20 {Y} - Muestra la coordenada Y del jugador
@@ -17,21 +17,21 @@
  
 # 29 Cuenta atrás | mensajes del temporizador | inicio del juego | El juego termina etc.
 # 30 Disponible Countdown_Message_Type son: Consejo, emergente, Mensaje
-31 Countdown_Message: "A partir de {Tiempo}"
+31 Countdown_Message: "A partir de {Time}"
 32 Countdown_Message_Type: "emergente"
-33 Game_Starting: Juego partir de {Tiempo}
+33 Game_Starting: Juego partir de {Time}
 34 Game_Start: El partido ha comenzado! Buena suerte
-35 Game_Ending: El partido terminará en el {tiempo}
+35 Game_Ending: El partido terminará en el {time}
 36 game_end: El partido ha terminado
 37
  
 38 # mensajes ganadores / Perdida
 39 Player_Won_Message: Felicidades, que ganaron el partido!
-40 Broadcast_Won: {nombre de usuario} ha ganado un partido de OITC
+40 Broadcast_Won: {Username} ha ganado un partido de OITC
 41
  
 42 # Muertes, golpes etc.
-43 Disparo: Disparaste {nombre de usuario}
+43 Disparo: Disparaste {Username}
 44 Target_Shot: Ha sido rodaje
-45 Broadcast_Shot: {nombre de usuario} fue eliminado por Tiré y {Killer}
-46 Player_Remain: Existen {jugadores} restantes
+45 Broadcast_Shot: {Username} fue eliminado por Tiré y {Killer}
+46 Player_Remain: Existen {Players} restantes
