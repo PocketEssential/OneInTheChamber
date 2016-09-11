@@ -17,7 +17,7 @@ Cannot_Choose_In_Game: Você não pode escolher um kit, enquanto o jogo está at
 # Contagem regressiva | mensagens temporizador | início do jogo | Jogo termina etc
 # Available Countdown_Message_Type are: Tip,Popup,Message
 Countdown_Message: "A partir de{Time}
-Countdown_Message_Type: "Popup
+Countdown_Message_Type: "Popup"
 Game_Starting: Jogo a partir de {Time}
 Game_Start: O jogo começou! Boa sorte
 Game_Ending: O jogo vai terminar em {Time}
