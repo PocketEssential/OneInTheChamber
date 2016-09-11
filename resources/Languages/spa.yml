@@ -1,0 +1,34 @@
+# {Time} - Muestra el tiempo de la arena
+# {Killer} - muestra el asesino del jugador
+# {Username} - Muestra el nombre de usuario del jugador
+# {Players} muestra una serie de jugadores que están en una arena
+# {Kits} - Muestra una lista de los kits
+# {KitName} - El kit al jugador elegir
+# {X} - Muestra la coordenada X del jugador
+# {Y} - Muestra la coordenada Y del jugador
+# {Z} - Muestra la coordenada Z del jugador
+
+# Kits relacionados
+Kits_Message: "kits disponibles: {Kits}"
+Kit_Chosen_Message: Usted ha elegido la {KitName} kit"
+Kit_No_Permission: Usted no tiene suficiente permiso para elegir este kit
+Cannot_Choose_In_Game: No se puede elegir un kit, mientras que el partido Actualmente se encuentra en está jugando!
+
+# Cuenta atrás | mensajes del temporizador | inicio del juego | El juego termina etc.
+# Available Countdown_Message_Type are: Tip,Popup,Message
+Countdown_Message: "a partir de {Time}
+Countdown_Message_Type: "Popup"
+Game_Starting: Juego a partir de {Time}
+Game_Start: El partido ha comenzado! Buena suerte
+Game_Ending: El partido terminará en {Time}
+Game_End: El partido ha terminado
+
+# Ganar mensajes / Perdida
+Player_Won_Message: Felicidades, que ganaron el partido!
+Broadcast_Won: {Username} ha ganado un partido de OITC
+
+# Kills, golpes, etc.
+Shot: disparaste {Username}
+Target_Shot: Se le ha disparado
+Broadcast_Shot: {Username} fue sniped y eliminado por {Killer}
+Player_Remain: Existen {Players}restante
