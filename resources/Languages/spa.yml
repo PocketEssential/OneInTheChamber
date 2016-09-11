@@ -33,5 +33,5 @@
 42 # Muertes, golpes etc.
 43 Disparo: Disparaste {nombre de usuario}
 44 Target_Shot: Ha sido rodaje
-45 Broadcast_Shot: {nombre de usuario} fue eliminado por Tiré y Killer {}
+45 Broadcast_Shot: {nombre de usuario} fue eliminado por Tiré y {Killer}
 46 Player_Remain: Existen {jugadores} restantes
