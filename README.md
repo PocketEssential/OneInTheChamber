@@ -1,8 +1,8 @@
 # OneInTheChamber
 
 Deathmatch plugin where you can instantly kill player with one shot. If you kill player you will have one more arrow. Very intersting bow game! Now for PocketMine servers / forks :)   (OneInTheChamber or One In The Quiver)
-
-#Features:
+ 
+# Features:
 
 - [x] Very Customizable!
 - [x] Permission support
@@ -14,20 +14,20 @@ Deathmatch plugin where you can instantly kill player with one shot. If you kill
 - [x] Unique API Feature!
 - And so on......
 
-#Commands:
+# Commands:
 
 - /oitc setlobby (Sets the lobby on which players will get teleported to after match is over)
 - /oitc create <ArenaName> <PlayerSlot>
 - /oitc delete <AreneName>
 - /oitc setspawn <ArenaName> <Number>
 - /oitc (Main command, sends a list of commands ect)
-
-#Permissions:
+ 
+# Permissions:
 - oitc.event.join.<ArenaName> (Access to the arena permission only)
 - oitc.event.join.*  (Access to join all arenas)
 - oitc.admin (Allow access to all commmands)
-
-#API
+ 
+# API
 We have a simple API, that allows developers to customized things more, and check for arena status ect. 
 
 * Before you continue,
@@ -50,4 +50,4 @@ We're working hard to useful API features! If you have any suggestions. Please "
 
 #Authors:
 - [KairusDarkSeeker](https://github.com/KairusDarkSeeker)
-- [xZeroMCPE] (https://github.com/xZeroMCPE)
+- [xZeroMCPE](https://github.com/xZeroMCPE)
