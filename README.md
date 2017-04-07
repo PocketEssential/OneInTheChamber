@@ -44,10 +44,10 @@ We have a simple API, that allows developers to customized things more, and chec
    
 * Add tokens to the player
    - $this->oitq->addToken($player, $token); 
-   - - Varible $token is the amount you are adding
+   - - Varible $token is the amount you are adding
  
 We're working hard to useful API features! If you have any suggestions. Please "do" let us know!
-
-#Authors:
+ 
+# Authors:
 - [KairusDarkSeeker](https://github.com/KairusDarkSeeker)
 - [xZeroMCPE](https://github.com/xZeroMCPE)
