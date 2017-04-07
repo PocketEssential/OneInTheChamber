@@ -46,7 +46,7 @@ We have a simple API, that allows developers to customized things more, and chec
    - $this->oitq->addToken($player, $token); 
    - - Varible $token is the amount you are adding
  
-We're working hard to useful API features! If you have any suggestions. Please "do" let us know!
+We're working hard to make useful API features! If you have any suggestions. Please "do" let us know!
  
 # Authors:
 - [KairusDarkSeeker](https://github.com/KairusDarkSeeker)
