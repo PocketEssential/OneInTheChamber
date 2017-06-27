@@ -51,3 +51,6 @@ We're working hard to make useful API features! If you have any suggestions. Ple
 # Authors:
 - [KairusDarkSeeker](https://github.com/KairusDarkSeeker)
 - [xZeroMCPE](https://github.com/xZeroMCPE)
+
+# Builds
+[![Poggit-CI](https://poggit.pmmp.io/ci.badge/PocketEssential/OneInTheChamber/OneInTheChamber)](https://poggit.pmmp.io/ci/PocketEssential/OneInTheChamber/OneInTheChamber)
